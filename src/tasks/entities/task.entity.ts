@@ -8,9 +8,9 @@ export class Task {
   @Column()
   text: string;
 
-  @Column()
-  date: string;
-
   @Column({ default: true })
   status: boolean;
+
+  @Column()
+  date: string;
 }
